@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".des4_frag">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="16dp"
+        android:src="@drawable/sou" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Arts Centre Melbourne"
+
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="358dp"
+        android:layout_height="407dp"
+        android:layout_marginTop="300dp"
+        android:padding="16dp"
+        android:text="On the banks of the Yarra River, a short stroll from Flinders Street Station, this area is packed with cultural attractions. Southbank promenade is filled with indoor/outdoor cafés, restaurants, and live entertainment. An excellent arts and crafts market is held every Sunday, and the area is also home to many festivals throughout the year. Easily recognizable by its spire, the Arts Centre incorporates a range of theaters and spaces, including the State Theatre, Playhouse, Fairfax Theatre, and Hamer Hall, the premier performance space for the revered Melbourne Symphony Orchestra."
+        android:textSize="14sp" />
+
+</FrameLayout>

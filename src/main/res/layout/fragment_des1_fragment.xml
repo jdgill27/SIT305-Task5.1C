@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".des1_fragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="16dp"
+        android:src="@drawable/fed" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Federation Square"
+
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="379dp"
+        android:layout_height="421dp"
+        android:layout_marginTop="300dp"
+        android:padding="16dp"
+        android:text="When Federation Square opened in 2002 to commemorate 100 years of federation, it divided Melburnians. There were those who loved it and those who hated it. Either way, it has become an integral part of the city and a great place for tourists to start their sightseeing. Located opposite Flinders Street Station, a major public transport hub, the building's ultra-modern design of open and closed spaces contrasts with the surrounding Victorian architecture. With more than 2,000 events annually, you can always find entertainment in the central outdoor performance space and intimate indoor venues."
+        android:textSize="14sp" />
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".des5_frag">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="16dp"
+        android:src="@drawable/ngv" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="National Gallery of Victoria"
+
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="343dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="300dp"
+        android:padding="16dp"
+        android:text="The oldest public art gallery in Australia, the National Gallery of Victoria holds more than 70,000 works of art in two city locations. The international collection is housed in the St. Kilda Road building, originally opened in 1968 and extensively renovated in 2003. The building is renowned for The Great Hall, where visitors are encouraged to lie on the floor and gaze at the colorful stained glass ceiling. The extensive Australian collection is held in the Ian Potter Gallery in Federation Square, featuring the history of Australian art from Aboriginal works through to the Heidelberg School, and contemporary mixed media. One of the highlights is the large triptych format, The Pioneer by Frederick McCubbin."
+        android:textSize="14sp" />
+
+</FrameLayout>

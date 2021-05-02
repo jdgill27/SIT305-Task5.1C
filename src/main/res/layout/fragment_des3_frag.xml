@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".des3_frag">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="16dp"
+        android:src="@drawable/mcg" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Melbourne Cricket Ground"
+
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="346dp"
+        android:layout_height="422dp"
+        android:layout_marginTop="300dp"
+        android:padding="16dp"
+        android:text="Melbourne is the sporting capital of Australia, so it's no surprise that a sports stadium numbers among the city's top tourist attractions. With a capacity of 100,000 and a history dating back to 1853, the MCG is considered one of the world's greatest stadiums. As the main stadium for the 1956 Olympic Games and 2006 Commonwealth Games, the birthplace of Test Cricket, and the home of Australian Rules Football, &quot;the 'G&quot; is woven into the fabric of Melbourne. Daily 75-minute tours take visitors for a trip down a memory lane of great moments in sporting history and incorporate the National Sports Museum, including the Australian Gallery of Sport and Olympic Museum. You can also catch a game of cricket in summer or football during winter."
+        android:textSize="14sp" />
+
+</FrameLayout>
